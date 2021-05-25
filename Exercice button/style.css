@@ -1,0 +1,29 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.btn {
+    display:inline-block;
+    text-align:center;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
