@@ -1,0 +1,34 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    background: #f1f1f1;
+    width: 100%;
+    height: 70px;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    display:inline-block;
+    line-height: 70px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#333;
+    font-size: 20px;
+}
