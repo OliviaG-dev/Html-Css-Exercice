@@ -1,0 +1,115 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Exemple #1 */
+
+.containerA {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.itemA {
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    margin: 5px;
+}
+
+.a2 {
+    flex-grow: 1;
+}
+
+
+/* Exemple #2 */
+
+.containerB {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.itemB {
+    width: 48%;
+    height: 150px;
+    background: crimson;
+    margin: 5px;
+}
+
+.b3{
+    flex-basis: 100%;
+}
+
+    
+  /* Exemple #3 */
+
+.containerC {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemC{
+    width: 40%;
+    height: 50px;
+    background: crimson;
+    margin: 5px;
+}
+
+
+
+
+  /* Exemple #4 */
+
+.containerD {
+    width: 800px;
+    height: 800px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.itemD {
+    width: 35%;
+    height: 250px;
+    background: crimson;
+    margin: 5px;
+}
+
+.d2 {
+    align-self: center;
+    /* margin: auto; */
+}
+
+.d3 {
+    align-self: flex-end;
+    /* margin-left: auto; */
+}
